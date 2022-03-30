@@ -25,7 +25,7 @@ T = TN*dt;
 % Keep in mind that u has support in [-L, L]. We integrate
 % u(x-y)u(x-z)u(x). Hence we only care about the values for u(x-y) for x in
 % [-L, L]. One can think of the value of u(x-y) in [-L, L] by looking at u
-% using a moving window. If we need some thing that is unknown, we append zeros.
+% using  a lense. If we need some thing that is unknown, we append zeros.
 % But the zeros must be adjacent to the boundary of the known data.
 
 function temp = U_ext(ind)
